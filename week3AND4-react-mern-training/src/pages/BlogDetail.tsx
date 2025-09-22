@@ -14,7 +14,7 @@ const BlogDetail = () => {
       <div className="flex flex-col">
       <h1 className="text-black dark:text-white text-xl font-bold">{blog?.title}</h1>
       <p>By: {blog?.writer ? blog.writer : "Unkown" }</p>
-      <p className="font-normal">{blog?.description}</p>
+      <p className="font-normal first-letter:float-left first-letter:mr-3 first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 first-line:tracking-widest first-line:uppercase">{blog?.description}</p>
       </div>
 
     </div>
